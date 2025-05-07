@@ -1,6 +1,9 @@
 {
-  "name": "indicatorts",
-  "version": "2.2.2",
+  "name": "@fugle-dev/indicatorts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": "2.2.3",
   "description": "Stock technical indicators and strategies in TypeScript for browser and server programs.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -19,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/cinar/indicatorts.git"
+    "url": "git+ssh://git@github.com/fugle-dev/indicatorts.git"
   },
   "keywords": [
     "analysis",
@@ -43,12 +46,11 @@
     "trading-strategies",
     "yahoo-finance"
   ],
-  "author": "Onur Cinar <onur.cinar@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cinar/indicatorts/issues"
+    "url": "https://github.com/fugle-dev/indicatorts/issues"
   },
-  "homepage": "https://github.com/cinar/indicatorts#readme",
+  "homepage": "https://github.com/fugle-dev/indicatorts#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^7.6.0",
